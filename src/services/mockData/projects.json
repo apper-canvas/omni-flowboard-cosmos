@@ -2,22 +2,61 @@
   {
     "Id": 1,
     "name": "Website Redesign",
-    "description": "Complete overhaul of company website with modern design and improved UX",
+    "description": "Complete overhaul of company website with modern design and improved UX. This project involves updating the entire visual identity, improving user experience flows, and implementing responsive design patterns.",
+    "progress": 75,
+    "status": "Active",
+    "teamMembers": [1, 2, 3, 4, 5],
     "createdAt": "2024-01-15T09:00:00Z",
     "updatedAt": "2024-01-20T14:30:00Z"
   },
   {
     "Id": 2,
     "name": "Mobile App Development",
-    "description": "Native iOS and Android app for customer portal",
+    "description": "Native iOS and Android app for customer portal with real-time notifications, offline support, and seamless integration with existing systems.",
+    "progress": 45,
+    "status": "Active",
+    "teamMembers": [2, 3, 5],
     "createdAt": "2024-01-10T10:00:00Z",
     "updatedAt": "2024-01-18T16:45:00Z"
   },
   {
     "Id": 3,
     "name": "E-commerce Platform",
-    "description": "Build scalable online shopping platform with payment integration",
+    "description": "Build scalable online shopping platform with payment integration, inventory management, and advanced analytics dashboard.",
+    "progress": 30,
+    "status": "On Hold",
+    "teamMembers": [1, 4],
     "createdAt": "2024-01-05T08:30:00Z",
     "updatedAt": "2024-01-22T11:20:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Data Migration",
+    "description": "Complete migration of legacy database systems to modern cloud infrastructure with zero downtime deployment.",
+    "progress": 100,
+    "status": "Completed",
+    "teamMembers": [1, 2, 3],
+    "createdAt": "2023-12-01T08:00:00Z",
+    "updatedAt": "2024-01-15T17:00:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "API Integration",
+    "description": "Integrate third-party APIs for enhanced functionality including payment processing, email services, and analytics tracking.",
+    "progress": 60,
+    "status": "Active",
+    "teamMembers": [3, 4, 5, 1, 2],
+    "createdAt": "2024-01-08T09:30:00Z",
+    "updatedAt": "2024-01-23T12:15:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "Security Audit",
+    "description": "Comprehensive security review and implementation of best practices across all systems and applications.",
+    "progress": 20,
+    "status": "On Hold",
+    "teamMembers": [1, 5],
+    "createdAt": "2024-01-12T10:00:00Z",
+    "updatedAt": "2024-01-19T14:45:00Z"
   }
 ]

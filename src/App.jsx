@@ -1,10 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
+import Projects from "@/components/pages/Projects";
+import React from "react";
+import "@/index.css";
 import Layout from "@/components/organisms/Layout";
-import ProjectBoard from "@/components/pages/ProjectBoard";
+import Reports from "@/components/pages/Reports";
 import MyTasks from "@/components/pages/MyTasks";
 import Team from "@/components/pages/Team";
-import Reports from "@/components/pages/Reports";
+import ProjectBoard from "@/components/pages/ProjectBoard";
 
 function App() {
   return (
@@ -13,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<ProjectBoard />} />
-            <Route path="projects" element={<ProjectBoard />} />
+            <Route path="projects" element={<Projects />} />
             <Route path="my-tasks" element={<MyTasks />} />
             <Route path="team" element={<Team />} />
             <Route path="reports" element={<Reports />} />
